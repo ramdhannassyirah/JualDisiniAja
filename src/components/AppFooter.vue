@@ -1,20 +1,25 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-7 container mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-2">
-      <div class="">
+  <div class="items-center flex flex-wrap gap-10 container mx-auto py-10">
+    <div class="flex flex-col lg:flex-row">
+      <div class="pr-[84px]">
         <h1>Jual Aja Disini</h1>
       </div>
-      <div class="flex flex-col gap-2">
+      <div class="flex flex-col gap-2 pr-[50px]">
         <h3>Latest Blog Post</h3>
         <h2 class="text-2xl">Ready to get started?</h2>
-        <p>
+        <p class="w-[370px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
           ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
       </div>
     </div>
-    <div class="grid grid-cols-2 gap-8">
+    <div class="text-center hidden lg:block">
+      <svg height="200" width="5">
+        <line x1="0" y1="200" style="stroke: rgb(255, 0, 0); stroke-width: 5" />
+      </svg>
+    </div>
+    <div class="grid grid-cols-2 gap-10 lg:pl-[50px]">
       <div class="">
         <h1>Product</h1>
         <h1>Product</h1>
