@@ -2,7 +2,7 @@
   <nav class="container mx-auto py-6">
     <div class="flex justify-between items-center">
       <div class="flex gap-4">
-        <h1 class="font-bold">Logo</h1>
+        <h1 class="font-bold">JUAL DISINI AJA</h1>
         <div class="inline-flex gap-4">
           <a href="">Motor</a>
           <a href="">Elektronik</a>

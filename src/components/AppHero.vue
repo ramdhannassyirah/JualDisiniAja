@@ -11,8 +11,12 @@
         </p>
         <button class="py-5 px-9 bg-black text-white rounded-2xl">Get started</button>
       </div>
-      <div class="w-[800px] h-[480px] overflow-hidden">
-        <img src="https://source.unsplash.com//random" alt="" />
+      <div class="overflow-hidden">
+        <img
+          class="w-[800px] h-[480px] object-contain"
+          src="https://source.unsplash.com//random"
+          alt=""
+        />
       </div>
     </div>
   </section>
