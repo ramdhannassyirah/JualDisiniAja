@@ -4,7 +4,9 @@ import CardProduct from '@/components/Card/CardProduct.vue'
 
 <template>
   <section class="min-h-screen">
-    <div class="flex justify-around gap-2">
+    <div class="flex flex-wrap justify-around gap-10">
+      <CardProduct />
+      <CardProduct />
       <CardProduct />
       <CardProduct />
       <CardProduct />
