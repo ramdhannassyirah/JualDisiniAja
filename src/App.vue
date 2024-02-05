@@ -1,6 +1,6 @@
 <script setup>
+import { RouterView } from 'vue-router'
 import AppNav from './components/AppNav.vue'
-import HomeView from './views/HomeView.vue'
 </script>
 <template>
   <div class="id">
@@ -8,7 +8,7 @@ import HomeView from './views/HomeView.vue'
       <AppNav />
     </header>
     <main>
-      <HomeView />
+      <RouterView />
     </main>
     <footer></footer>
   </div>
